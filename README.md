@@ -8,7 +8,7 @@ https://wiki.rakovets.by/java/core/lang/loops.html
 
 Practice:
 
-
+https://practice.rakovets.by/java/core/loops
 
 Video:
 
