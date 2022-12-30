@@ -3,15 +3,19 @@ public class Lesson04task3 {
     public static void main(String[] args) {
         int i = 0;
         int j = 1;
+        int numFibonacci;
+        System.out.println("  10 Чисел Фибоначчи:");
+        String textFib = "Число Фибоначчи";
+
+        System.out.printf("1. %s  0 %n", textFib);
+        System.out.printf("2. %s  1 %n", textFib);
+
         int n = 3;
-        int numNext;
-        System.out.println("1 число Фибоначчи  0");
-        System.out.println("2 число Фибоначчи  1");
         while (n < 11) {
-            numNext = i + j;
+            numFibonacci = i + j;
             i = j;
-            j = numNext;
-            System.out.printf("%d число Фибоначчи  %d %n", n, numNext);
+            j = numFibonacci;
+            System.out.printf("%d. %s %d %n", n, textFib, numFibonacci);
             n++;
         }
     }
